@@ -1,0 +1,23 @@
+{
+  "name": "cssclamp",
+  "version": "1.0.0",
+  "description": "The package provides two main functions, cssClamp and applyClamp, designed for dynamic font-size adjustment. cssClamp calculates the optimal font size for an HTML element based on min, preferred, and max values provided via a data-clamp attribute. applyClamp iterates through all elements with a data-clamp attribute, applying the calculated, clamped font size. The package also includes features to automatically apply and reapply the clamped font sizes when the page loads and whenever the window is resized.",
+  "main": "css-clamp.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dompl/cssClamp.js.git"
+  },
+  "keywords": [
+    "css",
+    "clamp"
+  ],
+  "author": "Dom Kapelewski",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dompl/cssClamp.js/issues"
+  },
+  "homepage": "https://github.com/dompl/cssClamp.js#readme"
+}
